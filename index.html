@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Delicioso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurante Delicioso</h1>
+    </header>
+    
+    <nav>
+        <button class="nav-button" onclick="showSection('macarrao')">Macarrão</button>
+        <button class="nav-button" onclick="showSection('pastel')">Pastel</button>
+    </nav>
+    
+    <main>
+        <section id="macarrao" class="product-section">
+            <h2>Macarrão</h2>
+            <div class="product">
+                <img src="https://imgs.search.brave.com/4p_n70ZbGgPfVhVucEHrTW934I8TciW8RsXiB7RpOYk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9vb2l6/aW5lLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wOS9J/TUdfOTYxNC1zY2Fs/ZWQuanBn" alt="Macarrão à Bolonhesa">
+                <div class="product-info">
+                    <h3>Macarrão à Bolonhesa</h3>
+                    <p>Macarrão ao molho bolonhesa feito com carne moída, tomates frescos e temperos especiais.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://imgs.search.brave.com/HDAWUHYZ9yUvLaRSrHwqqK5AyolMmfNfseYNZ9sQ8rg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVjZWl0ZXJpYS5j/b20uYnIvd3AtY29u/dGVudC91cGxvYWRz/L21vbGhvLWFsZnJl/ZG8tNzMweDQ4MC5w/bmc" alt="Macarrão Alfredo">
+                <div class="product-info">
+                    <h3>Macarrão Alfredo</h3>
+                    <p>Macarrão ao molho Alfredo cremoso com queijo parmesão e pedaços de frango grelhado.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pastel" class="product-section">
+            <h2>Pastel</h2>
+            <div class="product">
+                <img src="https://imgs.search.brave.com/tOxjW362BU6dOtxtqDBxdl9xBene5TmIPF56juE8vSo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yZXNp/emVyLmdsYW5hY2lv/bi5jb20vcmVzaXpl/ci92Mi9hLWxhLWhv/cmEtZGUtcGVuc2Fy/LWVuLWVtcGFuYWRh/cy1kZS1jYXJuZS12/YWxlLWxhLTY0UUo0/UTROTFpDRVJOR1Uy/Mk1QV0RKTVVJLnBu/Zz9hdXRoPWMwYWE1/YTkxZWMzNjY2Yzc4/YTcyYjEyZTQ3MmY4/MGU3N2Y5ZGVmYzUx/NmFiMzA0OWEwYTli/NWVlYzliZWUyZmMm/d2lkdGg9MzAwJmhl/aWdodD0yMDAmcXVh/bGl0eT03MCZzbWFy/dD10cnVl" alt="Pastel de Carne">
+                <div class="product-info">
+                    <h3>Pastel de Carne</h3>
+                    <p>Pastel recheado com carne moída temperada e azeitonas.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://imgs.search.brave.com/SQhve7OqPGAQH3TWe6YbBJPRnU2hqmTc6hGgdKeVm-A/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29uZmVpdGVpcmFk/ZXN1Y2Vzc28uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIw/LzEyL3Bhc3RlbGRl/cXVlaWpvMS0xMDI0/eDEwMjQuanBn" alt="Pastel de Queijo">
+                <div class="product-info">
+                    <h3>Pastel de Queijo</h3>
+                    <p>Pastel recheado com queijo mussarela derretido.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Restaurante Delicioso</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
